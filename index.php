@@ -68,8 +68,9 @@
 		<div class="col-sm-8 col-xs-12">
 			<p>
 				I promise none of them will be the examples from tutorials 
-				and to be honest most of them will probably have mario in there somewhere
+				and to be honest most of them will probably have mario in there somewhere. 
 			</p>
+			<p>All the code is on GitHub <a href="https://github.com/paulmck21/">here</a></p>
 		</div>
 		<div class="container projectExamples">
 			<div class="row">
@@ -79,7 +80,7 @@
 					</a>
 					
 					<a href="http://www.paulmck.co.uk/triangle/index.php">
-						<img src="images/triangleProject.png" alt=""></img>
+						<img src="images/triangleProject01.png" alt=""></img>
 					</a>
 					
 					<p>Website for recording studio including scalable php slideshow and responsive design</p>
@@ -90,7 +91,7 @@
 						<h3>colorScroll</h3>
 					</a>
 					<a href="http://www.paulmck.co.uk/colorScroll/index.html">
-						<img src="images/colorScrollProject.png" alt="">
+						<img src="images/colorScrollProject01.png" alt="">
 					</a>
 					<p>	
 						Little project to make a colour generator by scrolling in your browser.
