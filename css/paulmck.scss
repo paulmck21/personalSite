@@ -1,0 +1,108 @@
+$breaksmall: 768px;
+$breakmedium: 992px;
+$breaklarge: 1024px;
+
+$myPink: #B03DA1;
+$myDarkGrey: #333;
+
+
+.navbar-default {
+	background: rgba(255, 255, 255, 0.7);
+	border: none;
+}
+
+.jumbotron {
+	
+	height: 100vh;
+	width: 100%;
+	padding-top: 10vh;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+.jumbotron h3 {
+	margin-left: 2em;
+}
+
+.jumbotron p {
+	margin-left: 4em;
+	font-size: 1em;
+}
+
+.title {
+	background: #00DE7E;
+}
+
+.about {
+	color: $myDarkGrey;
+}
+
+.projects {
+	color: $myDarkGrey;
+	background: #1374F2;
+	text-decoration: none;
+	
+	.projectExamples {
+		p {
+			margin-left: 0;
+		}
+		h3 {
+			margin-left: 0;
+		}
+	}
+	a {
+		color: $myDarkGrey;
+		&:hover {
+		text-decoration: none;}
+	}
+	
+	img {
+		max-width: 100%;
+
+	}
+}
+
+.contact {
+	background: $myPink;
+
+}
+
+#contact { 
+	@media (max-width: $breaksmall) {
+		height: 150vh;
+	}	
+}
+
+input {
+	color: #333;
+}
+
+textarea {
+	color: #333;
+}
+
+#formP {
+	margin-left: 0em;
+	margin-bottom: 0em;
+	padding:  0 0 0 0;
+}
+
+#selectForm {
+	border-radius: 0;
+	color: #333;
+}
+
+#projects{
+	@media (max-width: $breaksmall) {
+		height: auto;
+	}
+
+
+}
+
+.endOfProjects{
+	height: 1px;
+}

@@ -1,0 +1,70 @@
+.navbar-default {
+  background: rgba(255, 255, 255, 0.7);
+  border: none; }
+
+.jumbotron {
+  height: 100vh;
+  width: 100%;
+  padding-top: 10vh;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.jumbotron h3 {
+  margin-left: 2em; }
+
+.jumbotron p {
+  margin-left: 4em;
+  font-size: 1em; }
+
+.title {
+  background: #00DE7E; }
+
+.about {
+  color: #333; }
+
+.projects {
+  color: #333;
+  background: #1374F2;
+  text-decoration: none; }
+  .projects .projectExamples p {
+    margin-left: 0; }
+  .projects .projectExamples h3 {
+    margin-left: 0; }
+  .projects a {
+    color: #333; }
+    .projects a:hover {
+      text-decoration: none; }
+  .projects img {
+    max-width: 100%; }
+
+.contact {
+  background: #B03DA1; }
+
+@media (max-width: 768px) {
+  #contact {
+    height: 150vh; } }
+
+input {
+  color: #333; }
+
+textarea {
+  color: #333; }
+
+#formP {
+  margin-left: 0em;
+  margin-bottom: 0em;
+  padding: 0 0 0 0; }
+
+#selectForm {
+  border-radius: 0;
+  color: #333; }
+
+@media (max-width: 768px) {
+  #projects {
+    height: auto; } }
+
+.endOfProjects {
+  height: 1px; }
+
+/*# sourceMappingURL=paulmck.css.map */
